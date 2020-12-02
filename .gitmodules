@@ -1,3 +1,13 @@
 [submodule "googletest"]
 	path = googletest
 	url = https://github.com/google/googletest.git
+
+
+[submodule "googletest"]
+	path = lab04
+	url = https://github.com/cs100/lab-04---composite-pattern-cdo032-galva041-lab4.git
+
+
+[submodule "googletest"]
+	path = lab06
+	url = https://github.com/cs100/lab-06---strategy-pattern-cdo032-galva041-lab6.git
