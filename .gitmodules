@@ -7,9 +7,7 @@
 	path = lab04
 	url = https://github.com/cs100/lab-04---composite-pattern-cdo032-galva041-lab4.git
 
+
 [submodule "lab06"]
 	path = lab06
-	url = https://github.com/cs100/lab-06---strategy-pattern-cdo032-galva041-lab6.git
-[submodule "lab-06---strategy-pattern-cdo032-galva041-lab6"]
-	path = lab-06---strategy-pattern-cdo032-galva041-lab6
 	url = https://github.com/cs100/lab-06---strategy-pattern-cdo032-galva041-lab6.git
