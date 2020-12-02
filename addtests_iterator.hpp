@@ -3,7 +3,7 @@
 
 #include "gtest/gtest.h"
 
-#include "lab04/add.hpp"
+#include "lab4/add.hpp"
 #include "iterator.hpp"
 
 TEST(AddIterator, CheckCurrent) {

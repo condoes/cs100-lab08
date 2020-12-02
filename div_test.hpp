@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
-#include "lab04/base.hpp"
-#include "lab04/Div.hpp"
+#include "lab4/base.hpp"
+#include "lab4/Div.hpp"
 #include "iterator.hpp"
 
 TEST(DivBinaryIteratorTest, getLeft) {

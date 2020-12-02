@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
-#include "lab04/base.hpp"
-#include "lab04/Mult.hpp"
+#include "lab4/base.hpp"
+#include "lab4/Mult.hpp"
 #include "iterator.hpp"
 
 TEST(MultBinaryIteratorTest, getLeft) {
