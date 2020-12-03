@@ -21,13 +21,16 @@ class Pow : public Base {
             return str;
         }
         Iterator* create_iterator() {
-            return new PreorderIterator(this);
+            return new BinaryIterator(this);
         }
         Base* get_left() {
             return base;
         }
         Base* get_right() {
             return exponent;
+        }
+        void accept(CountVisitor* v) {
+            v->visit_pow();
         }
 };
 
