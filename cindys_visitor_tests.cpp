@@ -114,7 +114,7 @@ TEST(VisitorTest, longVisitor) {
 }
 
 
-int main3(int argc, char **argv) {
+int main4(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
 }
