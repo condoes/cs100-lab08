@@ -29,6 +29,9 @@ class Pow : public Base {
         Base* get_right() {
             return exponent;
         }
+        void accept(CountVisitor* v) {
+            v->visit_pow();
+        }
 };
 
 #endif //__ADD_HPP__

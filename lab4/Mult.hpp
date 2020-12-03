@@ -28,6 +28,9 @@ class Mult : public Base {
         Base* get_right() {
             return v2;
         }
+        void accept(CountVisitor* v) {
+            v->visit_mult();
+        }
 };
 
 #endif //__MULT_HPP__

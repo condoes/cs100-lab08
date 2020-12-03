@@ -31,7 +31,6 @@ TEST(PowBinaryIteratorTest, TwoOperands) {
         } else if (myI->current() == sixteen->get_right()) {
             check2 = true;
         }
-        //std::cout << myI->current()->stringify() << std::endl;
     }
     EXPECT_EQ(check1, true);
     EXPECT_EQ(check2, true);
