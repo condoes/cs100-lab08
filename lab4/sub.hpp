@@ -32,6 +32,10 @@ class Sub : public Base {
         Base* get_left() {
             return firstVal;
         }
+
+        void accept(CountVisitor* v) {
+            v->visit_sub();
+        }
         
 };
 
