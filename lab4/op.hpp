@@ -22,6 +22,10 @@ class Op : public Base {
         Base* get_right() {
             return nullptr;
         }
+
+        void accept(CountVisitor *v) {
+            v->visit_op();
+        }
 };
 
 #endif //__OP_HPP__

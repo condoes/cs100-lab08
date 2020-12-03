@@ -31,6 +31,10 @@ class Add : public Base{
         Base* get_left() {
             return firstVal;
         }
+
+        void accept(CountVisitor* v) {
+            v->visit_add();
+        }
 };
 
 #endif //__ADD_HPP__
