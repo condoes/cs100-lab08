@@ -22,17 +22,15 @@ TEST(PowBinaryIteratorTest, TwoOperands) {
     Base* two = new Op(2);
     Base* four = new Op(4);
     Pow* sixteen = new Pow(two, four);
-    Base* dummy = new Add(sixteen, four);
 
-    Iterator* myI = dummy->create_iterator();
+    Iterator* myI = sixteen->create_iterator();
     bool check1 = false, check2 = false;
     for(myI->first(); !myI->is_done(); myI->next()) {
-        if (myI->current()->stringify() == sixteen->stringify()) {
+        if (myI->current() == sixteen->get_left()) {
             check1 = true;
         } else if (myI->current() == sixteen->get_right()) {
             check2 = true;
         }
-        //std::cout << myI->current()->stringify() << std::endl;
     }
     EXPECT_EQ(check1, true);
     EXPECT_EQ(check2, true);
