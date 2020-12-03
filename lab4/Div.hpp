@@ -28,6 +28,9 @@ class Div : public Base {
         Base* get_right() {
             return v2;
         }
+        void accept(CountVisitor* v) {
+            v->visit_div();
+        }
 };
 
 #endif // __DIV_HPP__

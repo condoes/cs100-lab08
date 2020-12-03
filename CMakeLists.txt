@@ -6,10 +6,12 @@ SET(CMAKE_CXX_STANDARD 11)
 
 ADD_EXECUTABLE(test
     cindys_unit_tests.cpp
+    visitor_tests_gaby.cpp
+    cindys_visitor_tests.cpp
     gabys_unit_tests.cpp
     preorder_iterator.cpp
     binary_iterator.cpp
-    iterator.hpp
+    visitor.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
